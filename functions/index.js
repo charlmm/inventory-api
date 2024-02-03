@@ -13,7 +13,7 @@ app.use(cors({ origin: true }));
 
 //test home route. 
 app.get('/', (req, res) => {
-    return res.status(200).send("hello there");
+    return res.status(200).send("Tanui Industries Inventory API. Head t");
 })
 
 // Api endpoint routes
